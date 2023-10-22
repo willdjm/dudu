@@ -18,15 +18,15 @@ export function Pecas() {
                 </div>
                 <div className="max-w-full mx-auto rounded-lg flex justify-start">
                     <div className="grid items-start justify-center px-6 py-4 text-emerald-500 gap-16">
-    <p className="text-5xl">
+    <p className="md:text-5xl flex items-center justify-center text-3xl">
     Peças Originais!
     </p>
-    <p className="text-xl text-justify">
+    <p className="text-xl md:text-justify ">
     É nisso que acreditamos...
     Trabalhar sem sentir que está trabalhando e, por consequência, fechar os melhores negócios da sua vida.
     Afinal de contas, toda grande decisão também envolve um pouco de emoção, e se for pro seu cliente lembrar de você, que seja com as melhores emoções possíveis!
     </p>
-    <div className="flex flex-initial w-full gap-24 items-center justify-center">
+    <div className="md:flex hidden w-full gap-24 items-center justify-center">
         
 
 

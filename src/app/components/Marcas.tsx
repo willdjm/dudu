@@ -38,7 +38,7 @@ return (
   <div id="marcas" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 lg:pb-20 ">
     <div className='md:w-full flex flex-wrap items-start justify-between py-5'>
 
-    <div className="w-full items-center flex ">
+    <div className="w-full items-center md:flex hidden ">
     <span className="text-emerald-500 flex items-center justify-center w-max font-semibold text-2xl mr-4"> Nossas marcas</span>
 
     <span className="relative flex h-3 w-3">
