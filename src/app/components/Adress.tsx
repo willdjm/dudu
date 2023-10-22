@@ -6,11 +6,11 @@ export function Endereço() {
 return (
 
 <section className="bg-green-50">
-<div id="contato" className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
+<div id="contato" className="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:py-20 lg:px-8">
     <div className="max-w-2xl lg:max-w-4xl mx-auto text-center">
         <h2 className="text-3xl font-semibold text-emerald-500">Solicite um orçamento</h2>
     </div>
-    <div className="mt-16 lg:mt-20">
+    <div className="mt-10 lg:mt-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="max-w-full mx-auto rounded-lg overflow-hidden flex flex-wrap justify-start">
                 <div className="flex items-center justify-center border-b border-gray-200 px-2 py-4">

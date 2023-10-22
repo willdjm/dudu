@@ -20,20 +20,20 @@ export default function Home() {
       
       <NavBar/>
       <Banner/>
-       <About/>
+       {/* <About/>
       <Qualidade/>
 
-      {/* <Service/> */}
+      <Service/>
       <Qualidade/>
 
       <Pecas/>
 
       <Marcas/>
-      <Fotos/>
+      <Fotos/> */}
       <Endereço/>
       <Avaliações/> 
       <Footer/> 
-      <Whatsapp />
+      {/* <Whatsapp /> */}
       </>
 
     </main>
