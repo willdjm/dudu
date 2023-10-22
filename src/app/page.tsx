@@ -22,8 +22,8 @@ export default function Home() {
       <About/>
       {/* <Qualidade/>
 
-      <Service/>
-      <Qualidade/>*/}
+      <Service/>*/}
+      <Qualidade/>
 
       <Pecas/>
 
