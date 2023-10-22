@@ -5,12 +5,12 @@ export function About() {
 return (
 
 <section className="bg-green-50">
-<div id="sobre" className="max-w-7xl mx-auto pt-16 px-4 sm:px-6 lg:pt-20 lg:px-8">
+<div id="sobre" className="max-w-7xl mx-auto pt-16 px-4 lg:pt-20 lg:px-5">
 
     <div className="mt-10 lg:mt-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 ">
             <div className="max-w-full mx-auto rounded-lg overflow-hidden flex flex-wrap justify-start">
-                <div className="grid items-center justify-center md:px-6 md:py-4 py-2 px-2 text-emerald-500 gap-10">
+                <div className="grid items-center justify-center md:px-4 md:py-4 py-2 px-4   text-emerald-500 gap-10">
 <h2 className="md:text-5xl text-3xl font-semibold">
 Sobre nós...
 </h2>

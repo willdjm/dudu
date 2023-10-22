@@ -49,7 +49,7 @@ export function NavBar() {
                 navbar ? 'p-12 md:p-0 block' : 'hidden'
               }`}
             >
-              <div className="h-screen md:h-auto md:items-end items-center justify-center md:grid gap-5">
+              <div id='home' className="h-screen md:h-auto md:items-end items-center justify-center md:grid gap-5">
               <ul className='md:flex md:items-center md:justify-end gap-5'>
                 <li className="text-xl text-emerald-500 py-2 px-6 md:py-0 md:px-0 text-center border-b-2 md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
                 <a className='flex items-center justify-center gap-0.5 cursor-pointer text-lg' href="https://wa.me/551142930396" target='_blank' rel="noreferrer"><FaWhatsapp className='cursor-pointer' size={25} />(11) 4293-0396</a>
@@ -62,6 +62,9 @@ export function NavBar() {
                 </li>
                 </ul>
                 <ul className='md:flex md:items-center md:justify-end gap-10'>
+                <li className="text-xl text-emerald-500 py-2 px-6 md:py-0 md:px-0 text-center  border-b-2 md:border-b-2 md:border-opacity-0 hover:border-emerald-500 hover:border-b-2  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
+                <Link className='cursor-pointer' to="home" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={() => setNavbar(!navbar)}>Home</Link>
+                </li>
                 <li className="text-xl text-emerald-500 py-2 px-6 md:py-0 md:px-0 text-center  border-b-2 md:border-b-2 md:border-opacity-0 hover:border-emerald-500 hover:border-b-2  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
                 <Link className='cursor-pointer' to="sobre" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={() => setNavbar(!navbar)}>Sobre</Link>
                 </li>

@@ -35,8 +35,8 @@ return () => {
 return (
 
 <section className="bg-emerald-50 ">
-  <div id="marcas" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 lg:py-20 ">
-    <div className='md:w-full flex flex-wrap items-start justify-between py-5'>
+  <div id="marcas" className="max-w-7xl mx-auto px-4 lg:px-8 lg:py-20 ">
+    <div className='md:w-full flex flex-wrap items-start justify-between py-4 gap-5'>
 
     <div className="w-full items-center md:flex hidden ">
     <span className="text-emerald-500 flex items-center justify-center w-max font-semibold text-2xl mr-4"> Nossas marcas</span>
@@ -48,7 +48,19 @@ return (
 
     <span className="flex flex-1 items-center w-full bg-gradient-to-r rounded-2xl from-green-500 h-0.5"/>
      
-      </div>      
+      </div> 
+
+
+      <div className="w-full items-center flex md:hidden ">
+    <span className="relative flex h-3 w-3">
+  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-300 opacity-75"></span>
+  <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-400"></span>
+</span>
+    <span className="flex flex-1 items-center w-full bg-gradient-to-r rounded-2xl from-green-500 h-0.5"/>
+      </div> 
+
+
+
        <Swiper className="h-44 flex items-center justify-center"
         loop={true}
         slidesPerView={slidePreview}

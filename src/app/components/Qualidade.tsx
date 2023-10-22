@@ -11,10 +11,10 @@ export function Qualidade() {
 return (
 
 <section className="md:bg-gradient-to-r bg-gradient-to-b from-emerald-400 from-10% via-green-300 via-30% to-emerald-500 to-90% ... shadow-2xl drop-shadow-md">
-<div id="quality" className="max-w-7xl mx-auto pt-16  sm:px-6 lg:pt-6 ">
-<h2 className="text-2xl text-center font-medium text-white md:hidden mb-8">Nós podemos te ajudar!</h2>
+<div id="quality" className="max-w-7xl mx-auto pt-16  px-3 lg:pt-6 ">
+<h2 className="text-2xl md:text-4xl text-center font-medium text-white lg:hidden mb-8">Nós podemos te ajudar!</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:items-end lg:items-center">
 
 
 
@@ -30,7 +30,7 @@ return (
 
             <div className="max-w-full mx-auto rounded-lg overflow-hidden gap-8 md:gap-0 grid justify-start pb-8 px-5 ">
                 
-        <h2 className="md:text-3xl md:text-start md:font-medium md:text-white md:flex hidden">Nós podemos te ajudar!</h2>
+        <h2 className="lg:text-3xl lg:text-start lg:font-medium lg:text-white lg:flex hidden">Nós podemos te ajudar!</h2>
 
                 <div className="flex md:items-center md:justify-center gap-1 md:px-6 md:py-4">
                     <div
