@@ -23,11 +23,11 @@ export default function Home() {
       {/* <Qualidade/>
 
       <Service/>
-      <Qualidade/>
+      <Qualidade/>*/}
 
       <Pecas/>
 
-      <Marcas/>*/}
+      <Marcas/>
       <Fotos/>
       <Endereço/>
       <Avaliações/>

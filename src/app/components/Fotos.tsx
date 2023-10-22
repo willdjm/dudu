@@ -47,7 +47,7 @@ export function Fotos() {
                 
 
 
-        <Swiper className='md:w-[35rem] rounded-3xl'
+        <Swiper className='md:w-[35rem] w-48 rounded-3xl'
         effect={'flip'}
         grabCursor={true}
         cubeEffect={{
