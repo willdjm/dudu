@@ -18,8 +18,8 @@ export default function Home() {
       <>
       
       <NavBar/>
-      {/* <Banner/> */}
-      {/* <About/>
+      <Banner/>
+       <About/>
       <Qualidade/>
 
       <Service/>
@@ -27,7 +27,7 @@ export default function Home() {
 
       <Pecas/>
 
-      <Marcas/>*/}
+      <Marcas/>
       <Fotos/>
       <Endereço/>
       <Avaliações/> 

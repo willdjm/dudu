@@ -11,8 +11,8 @@ export function Fotos() {
 
 return (
 
-<section className="bg-green-50">
-<div id="contato" className="max-w-7xl mx-auto py-10 px-4 lg:py-20 lg:px-8">
+<section className="bg-emerald-500">
+<div id="contato" className="max-w-7xl mx-auto py-5 px-2 lg:py-20 lg:px-8">
 
     <div className="mt-16 lg:mt-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

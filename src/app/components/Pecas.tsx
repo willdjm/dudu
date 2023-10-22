@@ -10,7 +10,10 @@ export function Pecas() {
     <div id="sobre" className="max-w-7xl mx-auto py-5 px-2 lg:py-5 lg:px-8">
     
         <div className="mt-16 lg:mt-20">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <p className="flex mb-5 items-center justify-center text-3xl md:hidden text-emerald-500 font-medium">
+    Peças Originais!
+    </p>            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+
             <div className="rounded-lg">
     <picture>
         <img src="./pec.png" alt="" />
@@ -18,7 +21,7 @@ export function Pecas() {
                 </div>
                 <div className="max-w-full mx-auto rounded-lg flex justify-start">
                     <div className="grid md:items-start md:justify-items-start gap-8 md:gap-0 md:justify-start px-4 py-4 text-emerald-500 ">
-    <p className="md:text-5xl flex items-center justify-center text-3xl">
+    <p className="md:text-5xl md:flex md:items-center md:justify-center hidden">
     Peças Originais!
     </p>
     <p className="text-xl text-justify">

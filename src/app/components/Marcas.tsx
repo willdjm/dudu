@@ -35,7 +35,7 @@ return () => {
 return (
 
 <section className="bg-emerald-50 ">
-  <div id="marcas" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 lg:pb-20 ">
+  <div id="marcas" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 lg:py-20 ">
     <div className='md:w-full flex flex-wrap items-start justify-between py-5'>
 
     <div className="w-full items-center md:flex hidden ">
