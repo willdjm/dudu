@@ -17,7 +17,7 @@ useEffect(() => {
 
 function handleResize() {
   if (window.innerWidth < 720) {
-    setSlidePreview(2);
+    setSlidePreview(1);
   }
   else {
     setSlidePreview(4);

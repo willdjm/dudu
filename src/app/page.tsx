@@ -28,8 +28,8 @@ export default function Home() {
       <Pecas/>
 
       <Marcas/>
-      <Fotos/>
-      <Endereço/>*/}
+      <Fotos/>*/}
+      <Endereço/>
       <Avaliações/>
       <Footer/> 
       </>
