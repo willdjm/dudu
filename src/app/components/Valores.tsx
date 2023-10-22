@@ -8,7 +8,7 @@ export function Valores() {
 
 return (
 <section className="bg-green-50">
-<div id="valores" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20 grid md:grid-cols-4 gap-8 items-start justify-center ">
+<div id="valores" className="max-w-7xl mx-auto px-4 lg:px-8 py-5 lg:py-20 grid md:grid-cols-4 md:gap-8 items-start justify-center ">
     <div className="flex flex-col items-center justify-center max-w-sm p-6 gap-2 text-emerald-500">
         <TbTargetArrow size={45} />
         <p className="text-2xl font-medium ">Missão</p>
