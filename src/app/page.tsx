@@ -10,6 +10,7 @@ import { NavBar } from "./components/NavBar";
 import { Pecas } from "./components/Pecas";
 import { Qualidade } from "./components/Qualidade";
 import { Service } from "./components/Services";
+import { Whatsapp } from "./components/Whatsapp";
 import { Footer } from "./components/footer";
 
 export default function Home() {
@@ -32,6 +33,7 @@ export default function Home() {
       <Endereço/>
       <Avaliações/> 
       <Footer/> 
+      <Whatsapp />
       </>
 
     </main>
