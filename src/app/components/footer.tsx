@@ -22,7 +22,7 @@ return (
         </div>
     </div>
     <div className='py-8 bg-emerald-600 w-full'>
-        <div className={'flex justify-between items-center px-16 lg:px-28'}>
+        <div className='flex justify-between items-center px-3 lg:px-28'>
             <h1 className='col-span-2 text-xs font-light text-center text-white uppercase'>© DUDU REGRIGERAÇÃO, {(new Date()).getFullYear()}.</h1>
             <a href='https://www.sacorp.tec.br?utm_source=htts://www.esferabsb.com.br&utm_medium=banner&utm_campaign=slogan' target='_blank' rel='noreferrer'>
                 <img alt="SA Corp" src="https://analytics.sacorp.tec.br/logo.svg" height={16} width={63} loading='lazy' />
