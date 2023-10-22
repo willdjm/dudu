@@ -20,9 +20,9 @@ export default function Home() {
       <NavBar/>
       {/* <Banner/> */}
       <About/>
-      {/* <Qualidade/>
+      <Qualidade/>
 
-      <Service/>*/}
+      <Service/>
       <Qualidade/>
 
       <Pecas/>
