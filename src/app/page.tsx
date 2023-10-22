@@ -29,9 +29,9 @@ export default function Home() {
 
       <Marcas/>
       <Fotos/>
-      <Endereço/>
+      <Endereço/>*/}
       <Avaliações/>
-      <Footer/> */}
+      <Footer/> 
       </>
 
     </main>
