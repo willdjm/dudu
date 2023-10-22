@@ -27,8 +27,8 @@ export default function Home() {
 
       <Pecas/>
 
-      <Marcas/>
-      <Fotos/>*/}
+      <Marcas/>*/}
+      <Fotos/>
       <Endereço/>
       <Avaliações/> 
       <Footer/> 
