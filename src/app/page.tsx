@@ -22,7 +22,7 @@ export default function Home() {
        <About/>
       <Qualidade/>
 
-      <Service/>
+      {/* <Service/> */}
       <Qualidade/>
 
       <Pecas/>
