@@ -3,8 +3,22 @@ export function Banner() {
 return (
 <section
     id="about"
-    className="text-white md:h-screen h-96 bg-[url('/banner.png')] bg-cover bg-no-repeat drop-shadow-2xl">
-        
+    className="drop-shadow-2xl mt-24">
+
+
+
+               
+<figure className="relative  transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 object-cover w-full">
+
+    <img className="rounded-lg" src="/banners.png" alt="image description"/>
+
+  <figcaption className="absolute px-4 text-lg text-white bottom-6">
+      <p>Do you want to get notified when a new component is added to Flowbite?</p>
+  </figcaption>
+</figure>
+
+
+
 </section>
 )
 }
