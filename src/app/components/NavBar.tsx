@@ -19,7 +19,7 @@ export function NavBar() {
               {/* LOGO */}
                 <Link className='cursor-pointer' to="/" spy={true} smooth={true} offset={-100} duration={500} delay={100} onClick={() => setNavbar(!navbar)}>
                   <picture>
-                    <img className='w-52 lg:w-60' src="/6.png" alt="" />
+                    <img className='w-52 lg:w-60' src="./6.png" alt="" />
                   </picture>
                 </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}
