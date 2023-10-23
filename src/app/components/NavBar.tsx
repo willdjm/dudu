@@ -29,10 +29,10 @@ export function NavBar() {
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
-                    <Image src="/close.svg" width={30} height={30} alt="logo" />
+                    <Image src="./close.svg" width={30} height={30} alt="logo" />
                   ) : (
                     <Image
-                      src="/hamburger-menu.svg"
+                      src="./hamburger-menu.svg"
                       width={30}
                       height={30}
                       alt="logo"
