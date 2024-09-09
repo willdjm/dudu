@@ -11,9 +11,10 @@
   "dependencies": {
     "@material-tailwind/react": "^2.1.4",
     "@trendyol-js/react-carousel": "^3.0.2",
+    "dudurefrigeracao": "file:",
     "flowbite-react": "^0.6.4",
     "framer-motion": "^10.16.4",
-    "next": "13.5.5",
+    "next": "^14.2.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-floating-whatsapp": "^5.0.8",
